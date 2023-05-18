@@ -34,7 +34,7 @@ function task() {
       button.style.border = "none";
       button.style.backgroundColor = "white";
       para.innerHTML = task;
-      alertMsg.innerHTML = "your task is added";
+      alertMsg.innerHTML = "your task is added!!";
       alertMsg.style.color = "rgba(55, 255, 0, 0.837)";
       alertMsg.classList.remove("d-none");
       button.addEventListener("click", (x) => {
